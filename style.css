@@ -1,5 +1,6 @@
 .container{
-    margin-bottom: 30px;
+    width: 80%;
+    margin-bottom: 50px;
 }
 .orange-bg{
     background-color: #fceae8;
@@ -18,4 +19,76 @@
     border-radius:  8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.cat1{
+    background-image: linear-gradient(90deg, #e65c00, #F9D423);
+}
+.cat2{
+    background-image: linear-gradient(90deg, #ec008c, #fc6767);
+}
+.cat3{
+    background-image: linear-gradient(90deg, #2193b0, #6dd5ed);
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 15px lightgray;
+}
+hr{
+    height: 5px;
+    width: 100px;
+    background: linear-gradient(90deg, #2193b0, #6dd5ed);
+    margin: 0 0 15px 0;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #6dd5ed;
+    border: none;
+}
+.btn{
+    padding: 5.5px 30px;
+}
+.form-control:focus{
+    background: lightgray;
+}
+.contact{
+    height: 300px;
+    text-align: center;
+}
+.subscribe-info{
+    color: dimgray;
+}
+.subscribe-input{
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    border-radius:  8px;
+}
+.subscribe-btn{
+    background-image: linear-gradient(to bottom, #FF5898 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius:  8px;
+    padding: 7px 30px;
+}
+.subscribe-btn:hover{
+    color: lightgray;
+}
+footer{
+    text-align: center;
+}
+.copyright{
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    background-image: linear-gradient(90deg, #0D324D, #7F5A83
+    );
+    border-radius: 8px;
 }
